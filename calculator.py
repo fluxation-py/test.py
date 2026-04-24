@@ -5,13 +5,13 @@ num2=float(input("Enter another number:"))
 if expression=="+":
     print(num1+num2)
 
-if expression=="-":
+elif expression=="-":
     print(num1-num2)
 
-if expression=="*":
+elif expression=="*":
     print(num1*num2)
 
-if expression=="/":
+elif expression=="/":
     print(num1/num2)
 
 
