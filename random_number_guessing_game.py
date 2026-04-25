@@ -9,17 +9,17 @@ def guessing_game():
 
     while True:
         try:
-            user_guess = int(input("Enter your random guess:"))5
+            user_guess = int(input("Enter your random guess:"))
             attempts += 1
 
             if user_guess < random_number:
-                print("Nice try, too low - guess again!")
+                print("It is too low but you can always try again!")
 
             elif user_guess > random_number:
-                print("Close, but too high - guess again!")
+                print("Too high, you can do better come on!")
             
             else:
-                print(f"Congratulations! You've guessed the number {random_number} in {attempts} attempts! 🎉")
+                print("Yay, you did it.")
                 break
 
         except ValueError:
